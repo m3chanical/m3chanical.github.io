@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face { font-family: "unscii"; src: url("../fonts/unscii-16-full.woff") format('woff'); }
+       pre { font-family: "unscii", "Lucida Console", monospace, Monaco; font-size: 16px; line-height: 1.0; }
+         a { color: #8cc6fc; text-decoration: none; } /* blue */
+         y { color: #fff68f; } /* yellow */
+        lg { color: #aaaaaa; } /* grey */
+         n { color: #fc8cc6; } /*pink */
+         w { color: #ffffff; } /* white */
+         o { color: #fcc28c; } /* orange */
+         r { color: #f22e2e; } /* red */
+    h1,h2,
+  h3,h4,h5 { color: #fcc28c; padding: 0px; margin: 0px; }
+       .kl { background-color: #0c0d10;
+             color: #8cfcc2;
+             cursor: pointer;
+             width: 100%;
+             border: none;
+             text-align: left;
+             outline: none;
+             font-family: "unscii", "Lucida Console", monospace, Monaco;
+             font-size: 16;}
+  .active,
+ .kl:hover { color: #c28cfc; }
+  .content { display: none; overflow: hidden; }
+        hl { color: #c2ff98; } /* For highlighting indent blocks */
+        ht { color: #f5ff98; }
+     .hljs { background-color: #000;font-family:"unscii", "Lucida Console", monospace, Monaco; border-style: solid; }
