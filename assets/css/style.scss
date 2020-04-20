@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-@font-face { font-family: "unscii"; src: url("/assets/fonts/unscii-16-full.woff") format('woff'); }
+@font-face { font-family: "unscii"; src: url("./assets/fonts/unscii-16-full.woff") format('woff'); }
        pre { font-family: "unscii", "Lucida Console", monospace, Monaco; font-size: 16px; line-height: 1.0; }
          a { color: #8cc6fc; text-decoration: none; } /* blue */
          y { color: #fff68f; } /* yellow */
