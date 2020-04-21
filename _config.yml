@@ -1,4 +1,6 @@
 theme: jekyll-theme-hacker
 name: explosions
-title: Disassemble everything.  
-description: blog site filled with nothing
+title: canderson's page of disassembly and tinkering  
+description: Knowing is not enough; we must apply. Willing is not enough; we must do.
+show_downloads: false
+show_repo: false

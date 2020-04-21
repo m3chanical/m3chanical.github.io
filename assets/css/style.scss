@@ -3,8 +3,8 @@
 
 @import "{{ site.theme }}";
 
-@font-face { font-family: "unscii"; src: url("/assets/fonts/unscii-16-full.tff") format('truetype'); }
-       body { font-family: "unscii" !important, "Lucida Console", monospace, Monaco; font-size: 16px: line-height: 1.0; }
+@font-face { font-family: "unscii"; src: url("../fonts/unscii-16-full.woff") format('woff'); }
+       body { font-family: "unscii", "Lucida Console", monospace, Monaco; font-size: 16px; line-height: 1.0; }
        pre { font-family: "unscii", "Lucida Console", monospace, Monaco; font-size: 16px; line-height: 1.0; }
          a { color: #8cc6fc; text-decoration: none; } /* blue */
          y { color: #fff68f; } /* yellow */
@@ -14,7 +14,7 @@
          o { color: #fcc28c; } /* orange */
          r { color: #f22e2e; } /* red */
     h1,h2,
-  h3,h4,h5 { color: #fcc28c; padding: 0px; margin: 0px; }
+  h3,h4,h5 { font-family: "unscii" !important; color: #fcc28c; padding: 0px; margin: 0px; }
        .kl { background-color: #0c0d10;
              color: #8cfcc2;
              cursor: pointer;
