@@ -14,7 +14,7 @@
          o { color: #fcc28c; } /* orange */
          r { color: #f22e2e; } /* red */
     h1,h2,
-  h3,h4,h5 { font-family: "unscii"; color: #fcc28c; padding: 0px; margin: 0px; }
+  h3,h4,h5 { font-family: "unscii" !important; color: #fcc28c; padding: 0px; margin: 0px; }
        .kl { background-color: #0c0d10;
              color: #8cfcc2;
              cursor: pointer;
