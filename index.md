@@ -1,8 +1,16 @@
-# Projects 
+---
+title: Home
+---
 
-## Nixie Tubes
+<section>
+<ul>
+    {% for post in paginator.posts %}
+      <li>
+          <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+          <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+      </li>
+    {% endfor %}
+</ul>
+</section>
 
-When I was in the Navy I was tasked with throwing away a large box of
-vacuum tubes. However, there were many military equivalent nixie tubes
-in the box that I was allowed to take home. I have two of one type that
-I intend to use as a nixie tube thermometer! 
