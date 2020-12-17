@@ -2,6 +2,7 @@
 title: "FlareOn 2020 - Fidler"
 author: "canderson"
 date: 2020-12-16 20:44:49
+tags: flareon
 ---
 
 # Challenge 1 - Fidler
