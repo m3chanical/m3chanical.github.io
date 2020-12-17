@@ -2,7 +2,9 @@
 title: Home
 ---
 
-![Cyber Pirate! Yarrrrr](/assets/images/pirate-avatar_animated_x3.gif)
+<div style="text-align: center">
+  <img src="{{site.baseurl}}/assets/images/pirate-avatar_animated_x3.gif" alt="The Cyber Pirate. Yarrrr!">
+</div>
 
 <section>
 <ul>
