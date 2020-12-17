@@ -71,7 +71,7 @@ In the dll optional header at offset 0x156 we find the `DLL Characteristics` sec
 
 After all that work, we get the flag and a vba script dropped in our directory. 
 
-![](/assets/images/victory.png)
+![](/assets/images/victory_2.png)
 
 ## Commentary
 
