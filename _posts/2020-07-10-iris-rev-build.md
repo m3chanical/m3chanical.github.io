@@ -2,6 +2,7 @@
 title: "Iris Rev4 Build"
 author: "canderson"
 date: 2020-07-10 12:09:00
+tags: keyboard
 ---
 
 Recently I wanted to change up my keyboard situation because I wasn't entirely happy with my current ones. I have a Logitech G413 with the Romer-G switches and a Corsair with Cherry MX Browns. I'm not a fan of either of them for different reasons. 

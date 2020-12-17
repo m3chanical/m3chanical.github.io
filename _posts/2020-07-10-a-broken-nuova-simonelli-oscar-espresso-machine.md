@@ -2,6 +2,7 @@
 title: "A Broken Nuova Simonelli Oscar Espresso Machine"
 author: "canderson"
 date: 2020-07-10 18:47:11
+tags: espresso
 ---
 
 I've been wanting an espresso machine for a very long time, but I've never really put in a whole lot of effort to find a decent and reasonably priced one. A friend of mine who's done way more research than I ever would recommended a few. Specifically, he has a Nuova Simonelli Oscar that he bought used for a good price many years ago. He chose this one because it was the cheapest he could find that was NSF rated. All of the parts are designed to be replaced and repaired, so it's a good bridge between the consumer and professional models. 
