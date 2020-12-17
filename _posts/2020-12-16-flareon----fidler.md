@@ -8,11 +8,11 @@ date: 2020-12-16 20:44:49
 
 We're presented with a simple python game in the style of cookie clickers or other idle games, and instructed to win by any means necessary. It's straightforward to solve either statically or by playing the game. However, if one seeks the flag by playing, there's one additional step required to get to the game itself - bypassing the `Flare On TURBO Nuke v55.7`.
 
-![Need to find the correct password in the code.](../assets/images/password.png)
+![Need to find the correct password in the code.](/assets/images/password.png)
 
 If the wrong password is entered...
 
-![](../assets/images/donegoofed.png)
+![](/assets/images/donegoofed.png)
 
 Bad pirate. At this point it's necessary to look at the underlying python script, which is provided in the challenge files. Some quick investigation reveals the code that checks the password and is shown below:
 
@@ -27,7 +27,7 @@ Each character of the altered key has one subtracted. Either looking at an ascii
 
 Once the correct password is entered, we're instructed to send Kitty out to catch mice for cash.
 
-![](../assets/images/fidler_main.png)
+![](/assets/images/fidler_main.png)
 
 Clicking on the cat indeed yields coins. Can we click 100 billion times? Who knows. Luckily we can buy autoclickers - but why when we have the source code? 
 
@@ -88,7 +88,7 @@ print(''.join([chr(x) for x in decoded_flag]))
 
 If one decides to click a whole bunch and let this thing run its course, the following will be displayed. 
 
-![](../assets/images/victory.png)
+![](/assets/images/victory.png)
 
 ## Commentary
 
