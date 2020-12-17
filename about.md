@@ -1,3 +1,6 @@
+
+![Cyber Pirate! Yarrrrr](/assets/images/pirate-avatar_animated_x3.gif)
+
 # About Me
 
 I am an electrical engineer who is interested in embedded reverse engineering, exploit

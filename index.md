@@ -2,6 +2,8 @@
 title: Home
 ---
 
+![Cyber Pirate! Yarrrrr](/assets/images/pirate-avatar_animated_x3.gif)
+
 <section>
 <ul>
     {% if site.posts[0] %}
