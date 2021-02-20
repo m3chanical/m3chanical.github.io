@@ -123,37 +123,39 @@ This information can be viewed with the Sysinternals VMMap tool. See screenshot 
 
 ## Process Virtual Memory Map
 
-    * The memory map of a process can be obtained by scanning its regions: 
-        * `VirtualQuery` -  current process
-        * `VirtualQueryEx` - any process for which `PROCESS_QUERY_INFORMATION` mask can be obtained
+* The memory map of a process can be obtained by scanning its regions: 
+    * `VirtualQuery`
+        * current process
+    * `VirtualQueryEx` 
+        * any process for which `PROCESS_QUERY_INFORMATION` mask can be obtained
 
 ## `VirtualAlloc` Function
 
-    * Powerful function for memory manipulation 
-        * reserving, committing, using large pages, etc.
-    * Calls `NtAllocateVirtualMemory`
-    * Operates on whole pages
-    * New allocations are always on allocation granularity (64kb)
-    * Committed memory is always zeroed!
+* Powerful function for memory manipulation 
+    * reserving, committing, using large pages, etc.
+* Calls `NtAllocateVirtualMemory`
+* Operates on whole pages
+* New allocations are always on allocation granularity (64kb)
+* Committed memory is always zeroed!
 
 ## Other Virtual Functions
 
-    * `VirtualAllocEx`
-        * commit/reserver in another process
-    * `VirtualProtect{Ex}`
-        * Change page protections
-    * `Virtual{Un}Lock`
-        * Attempt to keep committed memory in RAM
-    * `VirtualAllocExNuma`
-        * Select a preferred NUMA node
-    * `VirtualAlloc2` (Win10 1803 and later)
-        * Combines other virtual functions (?)
+* `VirtualAllocEx`
+    * commit/reserver in another process
+* `VirtualProtect{Ex}`
+    * Change page protections
+* `Virtual{Un}Lock`
+    * Attempt to keep committed memory in RAM
+* `VirtualAllocExNuma`
+    * Select a preferred NUMA node
+* `VirtualAlloc2` (Win10 1803 and later)
+    * Combines other virtual functions (?)
 
 ## Heap 
 
-    * The `VirtualAlloc{Ex}` function is great, but works on page level things. Thus, it's kinda wasteful for small allocations
-    * The Heap Manager manages small allocations
-        * `NtDll.dll`
-        * Calls virtual function when needed
-    * The `Heap*` functions are wrappers around the native heap APIs
-        
+* The `VirtualAlloc{Ex}` function is great, but works on page level things. Thus, it's kinda wasteful for small allocations
+* The Heap Manager manages small allocations
+    * `NtDll.dll`
+    * Calls virtual function when needed
+* The `Heap*` functions are wrappers around the native heap APIs
+    
